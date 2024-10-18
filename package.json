@@ -1,0 +1,17 @@
+{
+  "name": "datadog-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm exec playwright test --project chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.48.0",
+    "@types/node": "18.17.0",
+    "dd-trace": "5.23.1"
+  }
+}
